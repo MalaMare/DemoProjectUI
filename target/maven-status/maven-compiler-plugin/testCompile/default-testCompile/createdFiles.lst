@@ -1,0 +1,9 @@
+pages\BookStorePage.class
+tests\HomePage.class
+pages\HomePage.class
+pages\ElementsPage.class
+pages\FormsPage.class
+tests\BaseTest.class
+pages\WidgetsPage.class
+pages\AlertsPage.class
+pages\InteractionsPage.class

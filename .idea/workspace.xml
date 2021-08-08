@@ -19,7 +19,23 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="569fa2b0-7db4-4f94-ac1d-007365aa429e" name="Default Changelist" comment="initial commit for other files" />
+    <list default="true" id="569fa2b0-7db4-4f94-ac1d-007365aa429e" name="Default Changelist" comment="initial commit for other files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helpers/ActionsHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/ActionsHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helpers/PageHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/PageHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/FormsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/FormsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/FormsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/FormsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/DemoProjectUI-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/DemoProjectUI-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helpers/ActionsHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helpers/ActionsHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helpers/ConfigurationHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helpers/ConfigurationHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helpers/PageHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helpers/PageHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/FormsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/FormsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/FormsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/FormsTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -143,7 +159,21 @@
       <option name="project" value="LOCAL" />
       <updated>1628383237502</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial commit for other files">
+      <created>1628383879174</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1628383879174</updated>
+    </task>
+    <task id="LOCAL-00003" summary="initial commit for other files">
+      <created>1628383952117</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1628383952117</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,6 +207,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="initial commit for other files" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit for other files" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/helpers/PageHelper.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/helpers/PageHelper.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

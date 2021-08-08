@@ -12,13 +12,27 @@ public class PageHelper extends DriverHelper {
         return getWait(getDriver()).until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
 
+    public WebElement waitForElementVisibility(WebElement webElement) {
+        return getWait(getDriver()).until(ExpectedConditions.visibilityOf(webElement));
+    }
+
     private WebElement waitForElementClickability(By locator) {
         return getWait(getDriver()).until(ExpectedConditions.elementToBeClickable(locator));
+    }
+
+    private WebElement waitForElementClickability(WebElement webElement) {
+        return getWait(getDriver()).until(ExpectedConditions.elementToBeClickable(webElement));
     }
 
     //PUBLIC methods
     public void clickOnElement(By locator) throws InterruptedException {
         WebElement target = waitForElementClickability(locator);
+        Thread.sleep(10000);
+        target.click();
+    }
+
+    public void clickOnElement(WebElement webElement) throws InterruptedException {
+        WebElement target = waitForElementClickability(webElement);
         Thread.sleep(10000);
         target.click();
     }
@@ -43,6 +57,23 @@ public class PageHelper extends DriverHelper {
         String text = ActionsHelper.getRandomUrl();
         inputField.sendKeys(text);
         return text;
+    }
+
+    public String sendEmailOnField(WebElement webElement){
+        WebElement inputField = waitForElementVisibility(webElement);
+        inputField.clear();
+        String text = ActionsHelper.getRandomEmail();
+        inputField.sendKeys(text);
+        return text;
+    }
+
+    public String sendRandomInteger(WebElement webElement, int range){
+        WebElement inputField = waitForElementVisibility(webElement);
+        inputField.clear();
+        int number = ActionsHelper.getRandomInteger(range);
+        String stringNumber = Integer.toString(number);
+        inputField.sendKeys(stringNumber);
+        return stringNumber;
     }
 
 }

@@ -2,11 +2,13 @@ package helpers;
 
 public class ActionsHelper {
 
-    public static int getRandomInteger() {
-        return (int) (Math.random() * 1000);
+    public static long getRandomInteger() {
+
+        return (long) (Math.random() * 1000);
     }
 
     public static int getRandomInteger(int range) {
+
         return (int) (Math.random() * range);
     }
 
@@ -16,6 +18,10 @@ public class ActionsHelper {
 
     public static String getRandomUrl() {
         return "http://".concat(getRandomText()).concat(".rs");
+    }
+
+    public static String getRandomEmail() {
+        return getRandomText() + "@google.com";
     }
 
 }

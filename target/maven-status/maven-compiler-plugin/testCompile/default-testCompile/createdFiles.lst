@@ -1,5 +1,6 @@
 pages\BookStorePage.class
-tests\HomePage.class
+tests\FormsTest.class
+tests\HomeTest.class
 pages\HomePage.class
 pages\ElementsPage.class
 pages\FormsPage.class
